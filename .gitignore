@@ -1,0 +1,12 @@
+# Backup files
+*.bak*
+*#*
+*~
+._*
+
+# Apple crap
+.DS_Store
+.localized
+
+# Pre-compiled python files
+*.pyc

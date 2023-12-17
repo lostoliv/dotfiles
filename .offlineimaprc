@@ -1,0 +1,25 @@
+# OfflineIMAP config
+
+[general]
+metadata = ~/.offlineimap
+accounts = GMail
+ignore-readonly = no
+
+[Account GMail]
+localrepository = GMailLocal
+remoterepository = GMailRemote
+
+[Repository GMailLocal]
+type = Maildir
+localfolders = ~/.offlineimap/GMail
+subscribedonly = no
+restoreatime = no
+
+[Repository GMailRemote]
+type = Gmail
+remotehost = imap.gmail.com
+remoteuser = GMAILLOGIN
+remotepass = GMAILPASSWORD
+ssl = yes
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+realdelete = no
