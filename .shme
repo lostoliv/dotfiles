@@ -121,3 +121,6 @@ alias gitblist='git branch -r | grep -v HEAD | while read b; do git log --color 
 
 # ProtonVPN
 alias proton='protonvpn-cli d; protonvpn-cli ns --ads-malware; protonvpn-cli ks --permanent; protonvpn-cli c -f; protonvpn-cli s'
+alias proton_us='protonvpn-cli d; protonvpn-cli ns --ads-malware; protonvpn-cli ks --permanent; protonvpn-cli c --cc US; protonvpn-cli s'
+alias proton_ch='protonvpn-cli d; protonvpn-cli ns --ads-malware; protonvpn-cli ks --permanent; protonvpn-cli c --cc CH; protonvpn-cli s'
+alias proton_fr='protonvpn-cli d; protonvpn-cli ns --ads-malware; protonvpn-cli ks --permanent; protonvpn-cli c --cc FR; protonvpn-cli s'
