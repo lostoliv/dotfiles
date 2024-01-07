@@ -104,6 +104,8 @@ fi
 # Python
 alias p='python3'
 alias python='python3'
+alias a='conda activate base'
+alias d='conda deactivate'
 
 # Count number of files (and dirs) in cwd
 alias numfiles='ls -1 | wc -l'
