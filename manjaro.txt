@@ -6,6 +6,7 @@ sudo pacman -Syu make
 sudo pacman -Syu texlive-bin
 sudo pacman -Syu texlive-latex
 sudo pamac update --force-refresh
+sudo pamac build python-conda
 sudo pamac build protonvpn-cli
 sudo pamac clean
 pacman -Qdtq | sudo pacman -Rs -; sudo paccache -r; yes | sudo pacman -Sc
